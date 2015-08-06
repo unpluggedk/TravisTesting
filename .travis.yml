@@ -6,5 +6,4 @@ before_install:
   - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
 
 xcode_workspace: TravisTest.xcworkspace
-xcode_scheme: TravisTest
 xcode_sdk: iphonesimulator

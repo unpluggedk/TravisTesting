@@ -11,7 +11,6 @@ script:
 notifications:
   email:
     recipients:
-    - babb2@hotmail.com
-    - jak@microsoft.com
+    - o365patsol@microsoft.com
     on_success: never
     on_failure: always

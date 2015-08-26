@@ -7,3 +7,12 @@ before_install:
 
 xcode_workspace: TravisTest.xcworkspace
 xcode_sdk: iphonesimulator
+
+notifications:
+  email:
+    recipients:
+    - babb2@hotmail.com
+    - jak@microsoft.com
+    on_success: never
+    on_failure: always
+  

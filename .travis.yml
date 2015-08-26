@@ -12,5 +12,6 @@ notifications:
   email:
     recipients:
     - o365patsol@microsoft.com
+    - jak@microsoft.com
     on_success: never
     on_failure: always

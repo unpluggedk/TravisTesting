@@ -5,8 +5,8 @@ before_install:
   - brew update
   - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
 
-xcode_workspace: TravisTest.xcworkspace
-xcode_sdk: iphonesimulator
+script:
+  - xctool -workspace TravisTest.xcworkspace -scheme TravisTest -sdk iphonesimulator
 
 notifications:
   email:
@@ -15,4 +15,3 @@ notifications:
     - jak@microsoft.com
     on_success: never
     on_failure: always
-  

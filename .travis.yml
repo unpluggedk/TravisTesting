@@ -6,12 +6,5 @@ before_install:
 script:
 - xctool -workspace TravisTest.xcworkspace -scheme TravisTest -sdk iphonesimulator
 notifications:
-    slack:
-      secure: Oo3ZtjLWGUtuNklrYtXDXnekEQFicmWqQOA9tzm4XbNSGoYJL4qIVr9UiV1dLsE3+Xg8h3XyPGg5o2KXxQxH/4/psRErZ1+9J25lWnd4ueM3kF4lqwAECg+WRetLFeMYzYnhLYkSYqkkkLxwMpqXZxF7yNN/9/JWPKL2g39pRk1PyQt9+UPrJuPoJGzUCU1c/kBRUMu67cLPDLhp+9VXHIT88Mr5GDRzeHBWJqDzr4ej8hR510ifDvcnifVfsn5sMg2cOkYh/BDdKqzFFCCGDcKlxSHqnd1/EzfFgFwlgAoziPvm3Ulw9j6TTSHx2qq8yHBMGZaaNSjDfwMYB72/5lZFvoMahbPnuSse0b6o4YySmN62Hyskbd2G3+RjQ1PJWvS00AC5WIE8OhAMxAPSarWu05H0m2NX9j9IO/hI8bcE7aLgT+rvsTSFmsdmAYwRine5UI8IrHk94qdezvCxkQpgzzk+uyVL/dy4Aw01wgR4VOpspq1boYrzDRMr/MZk1hMJFF02GobVa/qmOoswIx9jiDrWR6wiumgWQxgoPK/IZdywQH+cuG7IUFbJnNGY/XHKV5vsLwxvzgzWWT/8c0EIMm7KVbshBC64zO8GGkZpKFeZw42T61ObpUHxss4LfyzmSybNtON3NFlY1HhMub3iFokSftzEuCaNbdVQAF4=
-      on_success: never
-      on_failure: always      
-  email:
-    recipients:
-    - jak@microsoft.com
-    on_success: never
-    on_failure: always
+  slack:
+    secure: YVYChT8itYtOwx4Qzvg0Yjn1F1qaOXDtHZxnYnQNQW5HPFMnjB6bsrBFKIxcy9jnTuMFqUvny+LP/9c6NCn/6KSIy9M89GyjBvHZi0m1+nbGuREL5TNLMLBNt0P2rF4T0SRNvDeLBoHhvV46AhA0JfXzTjcyKRo+vYIIDpvlJH33eZnH9v0pjzX0YPtrOfBRO8b43gLrewWl3RmODWuapNHr8bgTzYexm3YkHiaJJHPeMlGKASSN3nboL2fUp4/f08AAfX4WyzDqMPx/yTz6cFN1MVW4AFmvf4BNYy62oAqGwCdoWluOwOxIwZm6AqpI0YrNRDzgNLHmHkJeADm2TmynUkN9cy7MPx3uGAIY4Fff/PkmgnM/jilQAT7LxU3by6WwiDOI+RdvL/6gu6Srd+ScPpntMvUXG0rEzOfwzKu6OEEu2CR5kGLsdiLDYv8Q2+TADtiZun7cvSClp9CuPNknSo/xY9z6dwyryy7fEPLRPFGJYLDsRhuDThzaJrhZDY28JA74t28vS++WBzpHS96BOX5AuGXIhjowzNhwXI4XaVRBE5vrjGlLVtT4HGraSFfihgPm2omZRxSvpFr8GvWlUlT9VOATy5E9y8tMudU7lG0zuaqtmpni0dGXgg8+jsY78ZL1bdQb8HePiRiiNJrcRZ+Q0pgUgHRbMm5Vij8=

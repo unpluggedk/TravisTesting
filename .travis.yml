@@ -8,3 +8,8 @@ script:
 notifications:
   slack:
     secure: YVYChT8itYtOwx4Qzvg0Yjn1F1qaOXDtHZxnYnQNQW5HPFMnjB6bsrBFKIxcy9jnTuMFqUvny+LP/9c6NCn/6KSIy9M89GyjBvHZi0m1+nbGuREL5TNLMLBNt0P2rF4T0SRNvDeLBoHhvV46AhA0JfXzTjcyKRo+vYIIDpvlJH33eZnH9v0pjzX0YPtrOfBRO8b43gLrewWl3RmODWuapNHr8bgTzYexm3YkHiaJJHPeMlGKASSN3nboL2fUp4/f08AAfX4WyzDqMPx/yTz6cFN1MVW4AFmvf4BNYy62oAqGwCdoWluOwOxIwZm6AqpI0YrNRDzgNLHmHkJeADm2TmynUkN9cy7MPx3uGAIY4Fff/PkmgnM/jilQAT7LxU3by6WwiDOI+RdvL/6gu6Srd+ScPpntMvUXG0rEzOfwzKu6OEEu2CR5kGLsdiLDYv8Q2+TADtiZun7cvSClp9CuPNknSo/xY9z6dwyryy7fEPLRPFGJYLDsRhuDThzaJrhZDY28JA74t28vS++WBzpHS96BOX5AuGXIhjowzNhwXI4XaVRBE5vrjGlLVtT4HGraSFfihgPm2omZRxSvpFr8GvWlUlT9VOATy5E9y8tMudU7lG0zuaqtmpni0dGXgg8+jsY78ZL1bdQb8HePiRiiNJrcRZ+Q0pgUgHRbMm5Vij8=
+  email:
+    recipients:
+    - jak@microsoft.com
+    on_success: never
+    on_failure: always
